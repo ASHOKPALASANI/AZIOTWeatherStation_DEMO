@@ -1,0 +1,30 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:WeatherStation;1",
+  "@type": "Interface",
+  "displayName": "Weather Station",
+  "description": "A model representing a weather station with temperature, humidity, and pressure readings.",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "schema": "double",
+      "displayName": "Temperature",
+      "description": "Temperature in Celsius"
+    },
+    {
+      "@type": "Property",
+      "name": "humidity",
+      "schema": "double",
+      "displayName": "Humidity",
+      "description": "Relative humidity percentage"
+    },
+    {
+      "@type": "Property",
+      "name": "pressure",
+      "schema": "double",
+      "displayName": "Pressure",
+      "description": "Atmospheric pressure in hPa"
+    }
+  ]
+}

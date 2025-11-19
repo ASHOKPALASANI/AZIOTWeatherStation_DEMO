@@ -1,0 +1,5 @@
+[
+  { "op": "replace", "path": "/temperature", "value": 22.5 },
+  { "op": "replace", "path": "/humidity", "value": 79.3 },
+  { "op": "replace", "path": "/pressure", "value": 1012.3 }
+]
